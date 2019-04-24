@@ -51,7 +51,7 @@ function showResults(){
         answerContainers[questionNumber].style.color = 'red';
     } 
     
-    if(userAnswer=="") {
+    if(userAnswer==null) {
         numUnanswered++;
     }
 
