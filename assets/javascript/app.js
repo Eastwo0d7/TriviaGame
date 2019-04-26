@@ -5,21 +5,21 @@ const unansweredContainer = document.getElementById('unanswered');
 const submitButton = document.getElementById('submit');
 const startButton = document.getElementById('start');
 
-var number = 60;
+var number = 45;
 var intervalId;
 
-// $(document).ready(function(){
-//     $("#quiz").hide();
-//     $("#sumbmit").hide();
-//     $("#startButton").show();
-// });
+$(document).ready(function(){
+    $("#quiz").hide();
+    $("#submit").hide();
+    $("#startButton").show();
+});
 
     $("#quiz").hide();
     $("#finished").hide();
 
     $("#startButton").on("click", function() {
         $("#quiz").show();
-        $("#sumbmit").show();
+        $("#submit").show();
         $("#startButton").hide();
         decrement();
     });
