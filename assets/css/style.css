@@ -8,6 +8,13 @@ body {
     max-width: 960px !important;
 }
 
+nav {
+    background: lightsalmon;
+    border: 3px;
+    border-style: solid;
+    border-color: yellow;
+}
+
 #main-container {
     background: lightsalmon;
     margin-top: 30px;
@@ -16,11 +23,22 @@ body {
     padding: 10px;
     padding-bottom: 100px;
     padding-top: 50px;
+    border: 3px;
+    border-style: solid;
+    border-color: yellow;
 }
 
 #startButton {
-    margin-left: 45%;
+    margin-left: 40%;
     margin-top: 50px;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    border: 3px !important;
+    border-style: solid !important;
+    border-color: darkmagenta !important;
 }
 
 #quiz,
@@ -30,8 +48,16 @@ h1 {
     text-align: center;
 }
 
+.question {
+    font-weight: bold !important;
+}
+
+label {
+    margin-right: 5px;
+}
+
 #submitButton {
-    margin-left: 45%;
+    margin-left: 40%;
 }
 
 #image {

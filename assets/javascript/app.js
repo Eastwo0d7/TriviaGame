@@ -5,7 +5,7 @@ const unansweredContainer = document.getElementById('unanswered');
 const submitButton = document.getElementById('submit');
 const startButton = document.getElementById('start');
 
-var number = 45;
+var number = 61;
 var intervalId;
 
 $(document).ready(function(){
@@ -29,7 +29,6 @@ $(document).ready(function(){
         intervalId = setInterval(decrement, 1000);
         number--;
         $("#showNumber").text("You have " + number + " seconds left.");
-        console.log("You have " + number + " seconds left.");
 
         if (number === 0) {
             showResults();
@@ -82,7 +81,6 @@ $(document).ready(function(){
                 numCorrect++;
             }
             
-            
             if(userAnswer!==currentQuestion.correctAnswer){
                 numWrong++;
             } 
@@ -118,11 +116,31 @@ $(document).ready(function(){
             correctAnswer: "c"
         },
         {
+            question: "What is Kramer's first name?",
+            answers: {
+                a: "Michael",
+                b: "Cosmo",
+                c: "Andrew",
+                d: "John"
+            },
+            correctAnswer: "b"
+        },
+        {
             question: "What would you call someone who is against dentists?",
             answers: {
                 a: "Anti-Dentite",
                 b: "Dentalist",
                 c: "Dentizer"
+            },
+            correctAnswer: "a"
+        },
+        {
+            question: "What is the group's favorite TV show?",
+            answers: {
+                a: "Murphy Brown",
+                b: "The Cosby Show",
+                c: "Melrose Place",
+                d: "The Golden Girls"
             },
             correctAnswer: "a"
         },
@@ -135,6 +153,46 @@ $(document).ready(function(){
                 d: "Baseball Player"
             },
             correctAnswer: "b"
+        },
+        {
+            question: "What is Jerry's favorite baseball team?",
+            answers: {
+                a: "New York Mets",
+                b: "New York Yankees",
+                c: "Boston Red Sox",
+                d: "Cleveland Indians"
+            },
+            correctAnswer: "a"
+        },
+        {
+            question: "What brand of golf ball does George pull out of the whale's blow hole?",
+            answers: {
+                a: "Srixon",
+                b: "Callaway",
+                c: "Titleist",
+                d: "Top-Flite"
+            },
+            correctAnswer: "c"
+        },
+        {
+            question: "Which cookie does Jerry mean when he says we should 'follow the cookie'?",
+            answers: {
+                a: "Sugar",
+                b: "Chocolate Chip",
+                c: "Oreo",
+                d: "Black and White"
+            },
+            correctAnswer: "d"
+        },
+        {
+            question: "What make/model car does George buy that he mistakenly thinks used to be Jon Voigt's car?",
+            answers: {
+                a: "Chrysler LeBaron",
+                b: "Toyota Corrola",
+                c: "Honda Accord",
+                d: "Buick LeSabre"
+            },
+            correctAnswer: "a"
         }
     ];
 
