@@ -48,6 +48,11 @@ h1 {
     text-align: center;
 }
 
+h1 {
+    color: deepskyblue !important;
+    font-size: 75px !important;
+}
+
 .question {
     font-weight: bold !important;
 }
@@ -71,4 +76,9 @@ img {
 
 #score {
     margin-top: 40px;
+}
+
+#finished {
+    color: darkmagenta !important;
+    font-size: 75px !important;
 }
