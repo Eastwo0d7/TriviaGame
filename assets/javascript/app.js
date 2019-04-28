@@ -79,7 +79,7 @@ $(document).ready(function(){
             
             if(userAnswer===currentQuestion.correctAnswer){
                 numCorrect++;
-                answerContainers[questionNumber].style.color = 'lightgreen';
+                answerContainers[questionNumber].style.color = 'green';
             }
             
             if(userAnswer!==currentQuestion.correctAnswer){
@@ -99,7 +99,6 @@ $(document).ready(function(){
         $("#submitButton").on("click", function() {
             $("h2").show();
             $("#submitButton").hide();
-            // $("#quiz").hide();
             $("#showNumber").hide();
 
             clearInterval(intervalId);
