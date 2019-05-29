@@ -4,7 +4,7 @@ Thanks for playing my trivia game! You will have **one minute** to answer **nine
 
 Have fun and *try your best*! Click the Submit button when you are done, and your score will be tallied up at the end.
 
-- [Trivia Game] (https://eastwo0d7.github.io/TriviaGame/index.html)
+- Trivia Game https://eastwo0d7.github.io/TriviaGame/index.html
 
 The problem for this assignment was to create a Trivia Game using javascript for the logic and jQuery for the HTML. Additionally, the game must include a timer, multiple choice or true/false questions, and logic that limits the user to one answer per question.
 
